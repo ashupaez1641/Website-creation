@@ -220,9 +220,60 @@ section{
     height: auto;
    
 }
+.workexp-con{
+ width: 75%;
+ height: auto;
+ border: 1px solid red;
+ position: relative;
+}
+.workbox{
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 5px;
+    position: relative;
+    
+}
+.workbox:nth-child(2n){
+    left: 55%;
+}
+.workbox:nth-child(2n+1)::after{
+    content: ' ';
+    display: inline-block;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: brown;
+    position: relative;
+    right: -110%;
+}
+.workbox:nth-child(2n)::before{
+    content: ' ';
+    display: inline-block;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: brown;
+    position: relative;
+    left:-58px;
+    
 
-
-
-
+}
+.hr-line{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    height: 75%;
+    width: 0;
+    border: 1px dotted blue;
+}
+.plane i{
+    transform: rotate(90deg);
+    position: relative;
+    left: -10px;
+    z-index: 2;
+    
+    
+}
 
 
