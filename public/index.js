@@ -156,14 +156,35 @@
 
 // }
 // var x=setInterval(count,2000);
-Problem statement
-What will be the output of the following code:
+// Problem statement
+// What will be the output of the following code:
 
-let list = [4, 5, 6];
-for (let i in list) {
-   console.log(i); 
-}
+// let list = [40, 50, 60];
+// for (let i in list) {
+//    console.log("in value"+i); 
+// }
 
-for (let i of list) {
-   console.log(i); 
-}
+// for (let i of list) {
+//    console.log("of value"+i); 
+// // }
+// var obj1={};
+// var obj2;
+// // console.log(obj1);
+// // console.log(obj2);
+// var arr=[];
+// obj1.name="ashu";
+// obj1.age=17;
+// // console.log(obj1);
+// // console.log(obj1["name"]);
+// obj1.name={..."ashu2"};
+// console.log(obj1);
+// var key1=Object.keys(obj1);
+// console.log(key1);
+// var keys=Object.getOwnPropertyNames(obj1);
+// console.log(keys);
+
+// arr=[1,2,3,4,5,6];
+//  var arr=["sunday","mon","tues"];
+// //  console.log("the vale is before " + sunday)
+//  const[sunday,monday]=arr;
+//  console.log("the vale is after" + sunday)
